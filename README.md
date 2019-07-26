@@ -29,3 +29,4 @@ $ node ./00-find-node
 If you want to see more log messages, execute each file with `DEBUG=verbose` environment variable set.
 
 2. [01-find-node-task.js](01-find-node-task.js) changes a single function to use `Task` from [Folktale](https://github.com/origamitower/folktale) to clearly show the success and error flows.
+3. [02-with-fix-path.js](02-with-fix-path.js) shows how to handle Node not found and try again
