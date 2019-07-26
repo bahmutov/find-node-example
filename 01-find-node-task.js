@@ -1,3 +1,4 @@
+// https://folktale.origamitower.com/api/v2.3.0/en/folktale.concurrency.task.html
 const Task = require('folktale/concurrency/task')
 
 const debug = require('debug')('verbose')
