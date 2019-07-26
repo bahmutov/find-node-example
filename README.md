@@ -25,3 +25,7 @@ $ node ./00-find-node
   version: '12.4.0'
 }
 ```
+
+If you want to see more log messages, execute each file with `DEBUG=verbose` environment variable set.
+
+2. [01-find-node-task.js](01-find-node-task.js) changes a single function to use `Task` from [Folktale](https://github.com/origamitower/folktale) to clearly show the success and error flows.
